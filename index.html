@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  
+  <h1 class="pageTitle">Anh's HTML Reference Guide:</h1>
+  <div class="wrapper">
+    <h3>This is the basic structure:</h3>
+    <div>
+      <pre><code> <!-- this tag gives you the preformatted text -->
+      &lt;!DOCTYPE html&gt; ---This is the instruction that tells the browser you are using HTML version 5
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt;Website Title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          content of website ...
+        &lt;/body&gt;
+      &lt;/html&gt;
+      </code></pre>
+    </div>
+
+    <br>
+
+    <h3>Tags to use inside the &lt;body&gt; tag:</h3>
+    <ul> 
+      <li>&lt;p&gt; ... &lt;/p&gt; Use for new paragraphs, default 16px and top/bottom margins</li>
+      <li>&lt;br&gt; Inserts a line break and no closing tag needed</li>
+      <li>&lt;div&gt; ... &lt;/div&gt; Used to format large blocks of HTML and stylesheets</li>
+      <li>&lt;span&gt; ... &lt;/span> Used for inline text styling</li>
+      <li>&lt;a href="url" target="_new"&gt;some text that's clickable&lt;/a&gt; Used to add a <a href="http://time.com/3310128/spider-dog-prank-video/" target="new">Link</a>, target is the link location</li>
+      <li>&lt;img src="url" alt="text"&gt; Used to add an image</li>
+      <img src="spider.png" alt="spider dog">
+    </ul>
+
+    <br>
+
+    <div>
+      <h3>Lists:</h3>
+      <ul>
+        <li>&lt;ol&gt; ... &lt;/ol&gt;Creates an numbered list</li>
+        <li>&lt;ul&gt; ... &lt;/ul&gt; Creates an bulleted list</li>
+        <li>&lt;li&gt; ... &lt;/li&gt; Used for each list item, it adds a number or symbol depending on the list type</li>
+      </ul>
+      
+      <br>
+
+      <h3>Headlines &lt;h1&gt; ... &lt;h6&gt;:</h3>
+      <ol>
+        <li>&lt;h1&gt; ... &lt;/h1&gt; <h1>Creates the first largest headline</h1></li>
+        <li>&lt;h2&gt; ... &lt;/h2&gt; <h2>Creates the second largest headline</h2></li>
+        <li>&lt;h3&gt; ... &lt;/h3&gt; <h3>Creates the third largest headline</h3></li>
+        <li>&lt;h4&gt; ... &lt;/h4&gt; <h4>Creates the fourth largest headline</h4></li>
+        <li>&lt;h5&gt; ... &lt;/h5&gt; <h5>Creates the fifth largest headline</h5></li>
+        <li>&lt;h6&gt; ... &lt;/h6&gt; <h6>Creates the sixth largest headline</h6></li>
+      </ol>
+    </div>
+
+    <br>
+
+    <div>
+      <h3>Tables:</h3>
+      <table>
+        <th>Element Tags</th>
+        <th>What they do</th>
+        <tr>
+          <td>&lt;table&gt; ... &lt;/table&gt;</td>
+          <td>Creates a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt; ... &lt;/tr&gt;</td>
+          <td>Creates a row inside the table</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt; ... &lt;/td&gt;</td>
+          <td>Creates a cell in a row</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt; ... &lt;/th&gt;</td>
+          <td>Sets the table header</td>
+        </tr>
+      </table>
+
+      <br>
+
+
+      <h3>Frames:</h3>
+      &lt;iframe src="url"&gt; ... &lt;/iframe&gt; Used to include another HTML page/website/video inside your HTML page.
+      <h2>Here is an example:</h2>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/YoB8t0B4jx4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+html { 
+  background: url("paper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family:Lato, serif;
+  margin:5%;
+  font-size: 16px;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+ul {
+  margin-left:20px;
+  line-height:40px;
+}
+
+img {
+  width: 20%;
+}
+
+div {
+  margin-left:30px;
+}
+
+table {
+   border:1px solid black;
+   width:50%;
+}
+
+table tr td {
+  border:1px solid black;
+  padding: 10px;
+}
